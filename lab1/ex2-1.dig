@@ -25,7 +25,7 @@
           <string>OUT</string>
         </entry>
       </elementAttributes>
-      <pos x="820" y="240"/>
+      <pos x="820" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -57,9 +57,54 @@
           </testData>
         </entry>
       </elementAttributes>
-      <pos x="560" y="100"/>
+      <pos x="560" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>10</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>0-0,9-9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="240"/>
     </visualElement>
   </visualElements>
-  <wires/>
+  <wires>
+    <wire>
+      <p1 x="580" y="240"/>
+      <p2 x="680" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="240"/>
+      <p2 x="560" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="260"/>
+      <p2 x="820" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="280"/>
+      <p2 x="680" y="280"/>
+    </wire>
+  </wires>
   <measurementOrdering/>
 </circuit>
