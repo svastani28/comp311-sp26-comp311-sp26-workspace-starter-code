@@ -9,7 +9,7 @@
     andi x15, x14, 0x71C    
     andi x17, x15, 0x541    
 
-    # slti (
+    # slti 
     slti x18, x4, 311       # set x18 = (x4 < 311) ? 1 : 0
     slti x19, x18, 2        # set x19 = (x18 < 2) ? 1 : 0
     slti x20, x19, 0        # set x20 = (x19 < 0) ? 1 : 0
